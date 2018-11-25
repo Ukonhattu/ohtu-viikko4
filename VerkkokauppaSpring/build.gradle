@@ -2,6 +2,11 @@
 apply plugin: 'java'
 
 apply plugin: 'application'
+apply plugin: "jacoco"
+
+jacoco {
+    toolVersion = "0.8.2"
+}
 
 repositories {
     jcenter()
